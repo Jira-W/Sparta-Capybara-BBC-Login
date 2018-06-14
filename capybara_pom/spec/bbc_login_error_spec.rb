@@ -13,7 +13,6 @@ describe 'Incorrect user details produces valid error' do
       @bbc_site.bbc_login_page.input_password
       @bbc_site.bbc_login_page.click_sign_in
       expect(@bbc_site.bbc_login_page.error_message).to be true
-
     end
 
 
